@@ -1,0 +1,20 @@
+.button{
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  &--primary{
+    font-weight: 600;
+    line-height: 1.125;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: .1s linear 0s;
+    transition: .1s linear 0s;
+    box-shadow: 0 3px 0 0 #99455a;
+    background-color: #ff7396;
+    border-radius: 8px;
+    color: #002e36;
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 15px;
+  }
+}

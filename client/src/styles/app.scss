@@ -1,0 +1,28 @@
+body{
+  font-family: Regular,Century Gothic,ITC Avant Garde,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  color: #00414c;
+  font-size: 1rem;
+}
+.app{
+  background-color: #d9ffd6;
+  border: 5px solid #ff7396;
+  border-radius: 10px;
+  min-width: 300px;
+  &__title{
+    text-align: center;
+  }
+  &__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 480px) {
+  .app{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
